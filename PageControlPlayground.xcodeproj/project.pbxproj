@@ -13,6 +13,8 @@
 		9A75E2A0235802C700BA66E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A75E29F235802C700BA66E3 /* Assets.xcassets */; };
 		9A75E2A3235802C700BA66E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A75E2A1235802C700BA66E3 /* LaunchScreen.storyboard */; };
 		BBF5397E23588BE300DB3141 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5397D23588BE300DB3141 /* Extensions.swift */; };
+		BBF5398023588E2700DB3141 /* ComplexPageControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF5397F23588E2700DB3141 /* ComplexPageControl.storyboard */; };
+		BBF5398223588F0D00DB3141 /* ComplexPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5398123588F0D00DB3141 /* ComplexPageControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9A75E2A2235802C700BA66E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A75E2A4235802C700BA66E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBF5397D23588BE300DB3141 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BBF5397F23588E2700DB3141 /* ComplexPageControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ComplexPageControl.storyboard; sourceTree = "<group>"; };
+		BBF5398123588F0D00DB3141 /* ComplexPageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexPageControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +61,32 @@
 			isa = PBXGroup;
 			children = (
 				9A75E298235802C600BA66E3 /* AppDelegate.swift */,
-				9A75E29A235802C600BA66E3 /* ViewController.swift */,
-				9A75E29C235802C600BA66E3 /* Main.storyboard */,
+				BBF5397D23588BE300DB3141 /* Extensions.swift */,
+				BBF5398423588F2C00DB3141 /* MainPageControl */,
+				BBF5398523588F3D00DB3141 /* ComplexPageControl */,
 				9A75E29F235802C700BA66E3 /* Assets.xcassets */,
 				9A75E2A1235802C700BA66E3 /* LaunchScreen.storyboard */,
 				9A75E2A4235802C700BA66E3 /* Info.plist */,
-				BBF5397D23588BE300DB3141 /* Extensions.swift */,
 			);
 			path = PageControlPlayground;
+			sourceTree = "<group>";
+		};
+		BBF5398423588F2C00DB3141 /* MainPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				9A75E29C235802C600BA66E3 /* Main.storyboard */,
+				9A75E29A235802C600BA66E3 /* ViewController.swift */,
+			);
+			path = MainPageControl;
+			sourceTree = "<group>";
+		};
+		BBF5398523588F3D00DB3141 /* ComplexPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5397F23588E2700DB3141 /* ComplexPageControl.storyboard */,
+				BBF5398123588F0D00DB3141 /* ComplexPageControlViewController.swift */,
+			);
+			path = ComplexPageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +150,7 @@
 				9A75E2A3235802C700BA66E3 /* LaunchScreen.storyboard in Resources */,
 				9A75E2A0235802C700BA66E3 /* Assets.xcassets in Resources */,
 				9A75E29E235802C600BA66E3 /* Main.storyboard in Resources */,
+				BBF5398023588E2700DB3141 /* ComplexPageControl.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +163,7 @@
 			files = (
 				9A75E29B235802C600BA66E3 /* ViewController.swift in Sources */,
 				BBF5397E23588BE300DB3141 /* Extensions.swift in Sources */,
+				BBF5398223588F0D00DB3141 /* ComplexPageControlViewController.swift in Sources */,
 				9A75E299235802C600BA66E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
